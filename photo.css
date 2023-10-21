@@ -1,28 +1,32 @@
 #before-after-section {
    text-align: center;
    padding: 3em 0;
-   background-color:#8ed3a2;   
+   background-color: #8ed3a2;   
 }
+
 #before-after-section h2 {
    font-size: 6em;
    margin-bottom: 1em;
-   background-color:#8ed3a2; 
+   background-color: #8ed3a2; 
    font-family: 'cursive';
    color: #04250b;
    margin-bottom: 1em;
    padding: 0;   
 }
+
 .photo-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 1em;
+   gap: 0.5em; /* Adjusted the gap */
    justify-items: center;
-   background-color:#8ed3a2; 
+   background-color: #8ed3a2; 
 }
+
 .photo img {
    max-width: 100%;
    border: 4px solid #04250b; 
 }
+
 .photo p {
    font-size: 2em;
    margin: 0.5em 0 0;
@@ -32,13 +36,13 @@
 .photos {
    border: 4px solid #04250b;  
 }
-.section-label-before  , .section-label-after {
+
+.section-label-before, .section-label-after {
    text-align: center;
-   font-size: 3em;
+   font-size: 4em;
    margin-bottom: 0.5em;
    width: 100%;
-   color: #04250b;  ;
- 
+   color: #04250b;  
 }
 
 .section-label-after {

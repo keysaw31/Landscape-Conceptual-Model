@@ -16,7 +16,7 @@
    } 
    .section-label {
      text-align: center;
-     font-size: 2em;
+     font-size: 1em;
      margin-bottom: 0.5em;
      width: 100%;
    }
@@ -27,4 +27,11 @@
    #before-after-section h2 {
       font-size: 3em;
    }
+   .section-label-before, .section-label-after {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+      width: 100%;
+      color: #04250b;
+  }
 }

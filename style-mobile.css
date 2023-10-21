@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
    .top-bar {
-     padding: 0.5em 1em; 
+     padding: 0.8em 1em; 
      font-size: 0.5em; 
    } 
    #menu-bar {
@@ -20,7 +20,7 @@
      margin-top:2em;
    } 
    .banner-content{ 
-      margin-top: -8em;
+      margin-top: -.5em;
    }
    .banner-content p {
      font-size: 1.4em; 
@@ -29,6 +29,7 @@
      font-size: 1.2em; 
      padding: 4px 8px;
      background-color: white;
+     margin-top: 5em;
    } 
    .banner-content img {
      max-width: 6em; 
