@@ -7,30 +7,25 @@
       font-size: 3em;
     }
     .contact-form h2 {
-      font-size: 2em;
+      font-size: 1.5em;
       margin-bottom: 10px;
       white-space: nowrap;
-margin-left: -.3em;
+      margin-left: -.3em;
     }
  
    .contact-method {
      text-align: center;
      max-width: none;
    }
- 
    .contact-form {
-     max-width: 15em !important;
-   }
+     margin-top: 4em;
+  }
  
-   .form-group input,
-   .form-group textarea {
-     width: 100%;
-   }
  
    button[type="submit"] {
       color: #fff;
-      padding: 10px 20px;
-      font-size: 1em;
+      padding: 8px 16px; /* Adjust padding */
+      font-size: 1em; /* Adjust font size */
       background: #04250b;
       border: 3px solid #8ed3a2;
       border-radius: 5px;
@@ -41,9 +36,9 @@ margin-left: -.3em;
       margin-left: 4em;
   } 
     p {
-     font-size: 1.5em;
-     margin-top: 1em;
-     margin-bottom: 2em;
+     font-size: 1.2em; /* Adjust font size */
+     margin-top: 0.5em; /* Adjust margin */
+     margin-bottom: 1em; /* Adjust margin */
    }
  
    .project-info p {
@@ -54,21 +49,19 @@ margin-left: -.3em;
       align-items: center;
       gap: 20px;
     }  
-    .contact-method,
-    .contact-form {
-      max-width: 100%;
-    }  
+
     .form-group input,
     .form-group textarea {
-      width: calc(100% - 20px);
-    }  
-    .form-group label {
+    
       font-size: 1em;
     }  
-    .form-group input,
-    .form-group textarea {
-      padding: 8px;
-      font-size: 1.5em;
+    .form-group label {
+      font-size: .8em;
     }  
- }
- 
+
+    .form-group textarea {
+      height:  50px!important;
+      resize: none;
+  }
+
+   }

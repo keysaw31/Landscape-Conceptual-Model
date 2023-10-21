@@ -22,8 +22,9 @@
      margin-left: 0;
    } 
    .about-title {
-     font-size: 4em;
-     margin-top: 1em;
+     font-size: 3em;
+     margin-top: 3em;
+     margin-bottom: -1em;
    }
  }
  

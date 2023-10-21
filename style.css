@@ -42,9 +42,9 @@ body, html {
 }
 
 .top-bar {
-   /* Your existing styles */
-   opacity: 0; /* Set initial opacity to 0 */
-   animation: fadeInTopBar 1.5s 1.5s forwards; /* Add fade-in animation with a 1.5s delay and retain final state */
+  
+   opacity: 0; 
+   animation: fadeInTopBar 1.5s 1.5s forwards; 
 }
 
 @keyframes fadeInTopBar {
@@ -55,8 +55,8 @@ body, html {
 
 
 .quote-button {
-   /* ... your existing styles ... */
-   animation: pulse 2s infinite alternate; /* Add pulse animation */
+ 
+   animation: pulse 2s infinite alternate; 
 }
 
 @keyframes pulse {
@@ -110,7 +110,7 @@ body, html {
    justify-content: center;
    align-items: center;
    text-align: center;   
-   height: 900px; 
+   height: 1000px; 
 }
 .banner-content img {
    display: block;
