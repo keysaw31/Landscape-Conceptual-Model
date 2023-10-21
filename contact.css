@@ -3,8 +3,7 @@
    padding: 50px 0;
    text-align: center;
    color: #fff;
-   min-height: 120vh;
-   
+   min-height: 120vh;   
 }
 .contact-info {
    display: flex;
@@ -66,19 +65,15 @@ button[type="submit"] {
    padding: 10px 20px;
    font-size: 2em;
    background: #04250b; 
-   border: 3px solid #8ed3a2; /* Set the border color on hover */
+   border: 3px solid #8ed3a2; 
    border-radius: 5px;
    cursor: pointer;
-   transition: background 0.3s;
-   
+   transition: background 0.3s;   
 }
 button[type="submit"]:hover {
- 
-
    background: #8ed3a2; 
-   border: 3px solid #f7f7f7; /* Set the border color on hover */
+   border: 3px solid #f7f7f7; 
 }
-
 p {
    font-size: 2em;
    margin-top: 1em;

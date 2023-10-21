@@ -39,11 +39,8 @@ margin-left: -.3em;
       width: 50%;
       align-items: center;
       margin-left: 4em;
-  }
- 
-  
- 
-   p {
+  } 
+    p {
      font-size: 1.5em;
      margin-top: 1em;
      margin-bottom: 2em;
@@ -52,35 +49,26 @@ margin-left: -.3em;
    .project-info p {
      font-size: 1em;
    }
-
    .contact-info {
       flex-direction: column;
       align-items: center;
       gap: 20px;
-    }
-  
+    }  
     .contact-method,
     .contact-form {
       max-width: 100%;
-    }
-  
+    }  
     .form-group input,
     .form-group textarea {
       width: calc(100% - 20px);
-    }
-  
-  
+    }  
     .form-group label {
       font-size: 1em;
-    }
-  
+    }  
     .form-group input,
     .form-group textarea {
       padding: 8px;
       font-size: 1.5em;
-    }
-  
-  
-
+    }  
  }
  
