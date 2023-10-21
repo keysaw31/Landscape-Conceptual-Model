@@ -6,29 +6,24 @@
    min-height: 120vh;
    margin-top: 10em;
 }
-
 .contact-info {
    display: flex;
    justify-content: center;
    gap: 40px;
    margin-bottom: 30px;
 }
-
 .contact-method {
    max-width: 250px;
    text-align: left;
 }
-
 .contact-method h2 {
    font-size: 1.5em;
    margin-bottom: 10px;
 }
-
 .contact-method p {
    font-size: 1em;
    color: #ccc;
 }
-
 .contact-form {
    max-width: 600px;
    margin: 0 auto;
@@ -38,24 +33,20 @@
    border-radius: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
 .contact-form h2 {
    font-size: 3em;
    margin-bottom: 20px;
    color: #fff;
 }
-
 .form-group {
    margin-bottom: 20px;
 }
-
 .form-group label {
-   font-size: 1.2em;
+   font-size: 1.5em;
    display: block;
    margin-bottom: 5px;
    color: #fff;
 }
-
 .form-group input,
 .form-group textarea {
    width: calc(100% - 20px);
@@ -66,12 +57,10 @@
    background: #8ed3a2; 
    color: #fff;
 }
-
 .form-group textarea {
    height: 150px;
    resize: none;
 }
-
 button[type="submit"] {
    background: #8ed3a2; 
    color: #fff;
@@ -82,18 +71,15 @@ button[type="submit"] {
    cursor: pointer;
    transition: background 0.3s;
 }
-
 button[type="submit"]:hover {
    background: #777;
 }
-
 p {
    font-size: 2em;
    margin-top: 1em;
    margin-bottom: 3em;
    color: #04250b; 
 }
-
 h1 {
    display: block;
    font-size:6em;
@@ -104,8 +90,7 @@ h1 {
    font-weight: bold;
    color: #04250b; 
 }
-
 .project-info p {
-   margin: 5px 0; /* Adjust the margin as needed */
-   line-height: 1.2; /* Adjust the line height as needed */
+   margin: 5px 0; 
+   line-height: 1.2; 
 }

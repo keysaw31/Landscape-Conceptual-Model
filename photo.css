@@ -23,7 +23,7 @@
 }
 .photo img {
    max-width: 100%;
-   border: 4px solid #04250b; /* Dark green border */
+   border: 4px solid #04250b; 
 }
 .photo p {
    font-size: 2em;
