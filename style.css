@@ -1,0 +1,110 @@
+html {
+   scroll-behavior: smooth;
+   scroll-behavior: smooth;
+   scroll-snap-type: y mandatory;
+   scroll-padding: 200px;
+   scroll-snap-stop: always;
+}
+
+ 
+
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background: #8ed3a2;
+}
+
+.top-bar {
+   background-color: #328a4c;
+   color: #fff;
+   text-align: center;
+   padding: 1em 0;
+   font-size: 1em;
+ 
+}
+
+.top-bar p {
+   margin: 0;
+   
+}
+
+
+
+
+.banner-content {
+   max-width: 600px;
+   text-align: center;
+   position: absolute;
+   top: 18em; /* Adjust this value to move it higher or lower */
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin-top: 14em;
+   align-items: ce;
+
+}
+
+.banner-content h1 {
+   font-size: 7em;
+   white-space: nowrap;
+   margin-bottom: -1em;
+   text-shadow: 2px 2px 4px #182c1d;
+   color: rgb(230, 231, 230);
+   text-align: center;
+   margin-left: -1.5em;
+}
+
+.banner-content p {
+   font-size: 4em;
+   margin: 0;
+   text-shadow: 2px 2px 4px #04250b;
+   color: white;
+   margin-top: 2em;
+   white-space: nowrap;
+   margin-left: -1em;
+}
+
+.background-image-section {
+   background-image: url('Images/Landscaping.jpg'); /* Add the path to your background image */
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;   
+   height: 900px; /* Adjust the height as needed */
+}
+
+.banner-content img {
+   display: block;
+   margin: 0 auto;
+   max-width: 20em;
+   margin-bottom: -8em;
+   
+}
+
+.quote-button {
+   display: inline-block;
+   padding: 12px 24px;
+   font-size: 3em;
+   text-align: center;
+   text-decoration: none;
+   background-color: transparent; /* Remove background color */
+   color: #04250b; /* Change text color to border color */
+   border: 5px solid #04250b; /* Add border */
+   border-radius: 50px; /* Make it round */
+   transition: background-color 0.3s;
+   margin-top:1em;
+   font-weight: bolder;
+}
+
+.quote-button:hover {
+   background-color: #1d552e; /* Change background color on hover */
+   color: #fff; /* Change text color on hover */
+}
+
+
+.quote-button:hover {
+   background-color: #328a4c;
+}
