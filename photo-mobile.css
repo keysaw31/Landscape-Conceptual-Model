@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+   #before-after-section {
+     padding: 2em 0;
+   }
+ 
+   #before-after-section h2 {
+     font-size: 3em;
+     margin-bottom: 0.5em;
+   }
+
+   .photo-grid {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1em;
+   }
+
+   .photo {
+     width: 100%;
+   }
+
+   .photo img {
+     
+     max-width: 40%;
+    height: auto;
+
+   }
+
+   .photo p {
+     font-size: 1.5em;
+   }
+   
+   .section-label {
+     text-align: center;
+     font-size: 2em;
+     margin-bottom: 0.5em;
+   }
+
+   .section-label + .photo-grid {
+     margin-top: 1em;
+   }
+ }

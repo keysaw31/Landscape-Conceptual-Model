@@ -5,7 +5,7 @@ function toggleMenu(x) {
 }
 
 
-function toggleMenu() {
-   var menuDropdown = document.getElementById("menuDropdown");
-   menuDropdown.classList.toggle("active");
-}
+    // Add JavaScript to navigate to the main content after animation
+    setTimeout(function() {
+        window.location.href = '#main-content'; // Replace with your actual main content ID
+    }, 3000); // Adjust the delay (in milliseconds) as needed

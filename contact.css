@@ -4,7 +4,7 @@
    text-align: center;
    color: #fff;
    min-height: 120vh;
-   margin-top: 10em;
+   
 }
 .contact-info {
    display: flex;
@@ -61,19 +61,24 @@
    height: 150px;
    resize: none;
 }
-button[type="submit"] {
-   background: #8ed3a2; 
+button[type="submit"] {   
    color: #fff;
    padding: 10px 20px;
-   font-size: 1em;
-   border: none;
+   font-size: 2em;
+   background: #04250b; 
+   border: 3px solid #8ed3a2; /* Set the border color on hover */
    border-radius: 5px;
    cursor: pointer;
    transition: background 0.3s;
+   
 }
 button[type="submit"]:hover {
-   background: #777;
+ 
+
+   background: #8ed3a2; 
+   border: 3px solid #f7f7f7; /* Set the border color on hover */
 }
+
 p {
    font-size: 2em;
    margin-top: 1em;

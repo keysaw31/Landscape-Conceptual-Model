@@ -12,6 +12,63 @@ body {
    background: #8ed3a2;
 }
 
+body, html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.banner-content {
+   max-width: 600px;
+   text-align: center;
+   position: absolute;
+   top: 18em; 
+   left: 50%;
+   transform: translate(-50%, -50%);
+   margin-top: 14em;
+   align-items: center;
+   animation: fadeIn 1.5s; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+.top-bar {
+   /* Your existing styles */
+   opacity: 0; /* Set initial opacity to 0 */
+   animation: fadeInTopBar 1.5s 1.5s forwards; /* Add fade-in animation with a 1.5s delay and retain final state */
+}
+
+@keyframes fadeInTopBar {
+   to {
+       opacity: 1;
+   }
+}
+
+
+.quote-button {
+   /* ... your existing styles ... */
+   animation: pulse 2s infinite alternate; /* Add pulse animation */
+}
+
+@keyframes pulse {
+   from {
+       transform: scale(1);
+   }
+   to {
+       transform: scale(1.05);
+   }
+}
+
+
 .top-bar p {
    margin: 0;
    
@@ -70,11 +127,12 @@ body {
    text-decoration: none;
    background-color: transparent; 
    color: #04250b; 
-   border: 5px solid #04250b; 
+   border: 2px solid #04250b; 
    border-radius: 50px; 
    transition: background-color 0.3s;
    margin-top:1em;
-   font-weight: bolder;
+   font-weight: bold;
+   
 }
 .quote-button:hover {
    background-color: #1d552e; 
@@ -158,3 +216,27 @@ body {
    background-color: #328a4c; 
 }
 
+footer {
+   background-color: #328a4c;
+   color: #fff;
+   text-align: center;
+   padding: 1em 0;
+ }
+ 
+ .footer-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .footer-content a {
+   margin: 0 1em;
+   text-decoration: none;
+   color: #fff;
+ }
+ 
+ .footer-content img {
+   width: 30px; /* Adjust the size as needed */
+   height: auto;
+ }
+ 
