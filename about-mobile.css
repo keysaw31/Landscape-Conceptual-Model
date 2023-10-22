@@ -2,25 +2,31 @@
    .about-container {
      flex-direction: column;
      align-items: center;
-   } 
+   }
+    
    .about-column {
      max-width: 100%;
      width: 80%;
      margin: 10px 0;
    } 
+
    .about-column h2 {
      font-size: 1.5em;
    } 
+
    .about-column ul li:before {
      font-size: 1em;
    } 
+
    #about-section p {
      font-size: 1em;
    }
+
     li {
      font-size: 1em;
      margin-left: 0;
    } 
+
    .about-title {
      font-size: 3em;
      margin-top: 3em;

@@ -24,8 +24,8 @@
  
    button[type="submit"] {
       color: #fff;
-      padding: 8px 16px; /* Adjust padding */
-      font-size: 1em; /* Adjust font size */
+      padding: 8px 16px; 
+      font-size: 1em; 
       background: #04250b;
       border: 3px solid #8ed3a2;
       border-radius: 5px;
@@ -36,9 +36,9 @@
       margin-left: 4em;
   } 
     p {
-     font-size: 1.2em; /* Adjust font size */
-     margin-top: 0.5em; /* Adjust margin */
-     margin-bottom: 1em; /* Adjust margin */
+     font-size: 1.2em; 
+     margin-top: 0.5em; 
+     margin-bottom: 1em; 
    }
  
    .project-info p {

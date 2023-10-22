@@ -17,7 +17,7 @@
 .photo-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 0.5em; /* Adjusted the gap */
+   gap: 0.5em; 
    justify-items: center;
    background-color: #8ed3a2; 
 }
