@@ -20,7 +20,16 @@ body, html {
 
 /* Top/Menu Bar */
 .top-bar {
-  
+   background-color: #328a4c;
+   color: #fff;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   padding: 1em 1.5em;
+   font-size: 1em;
+   position: fixed;  
+   width: 100%;
+   z-index: 1000;
    opacity: 0; 
    animation: fadeInTopBar 1.5s 1.5s forwards; 
 }
@@ -29,28 +38,11 @@ body, html {
        opacity: 1;
    }
 }
-.top-bar p {
-   margin: 0;
-   
-}
-.top-bar {
-   background-color: #328a4c;
-   color: #fff;
-   display: flex;
-   justify-content:center;
-   align-items: center;
-   padding: 1em 1.5em;
-   font-size: 1em;
-   position: fixed;
-  
-   width: 100%;
-   z-index: 1000;
-}
+
 .top-bar p {
    margin: 0;
    flex-grow: 1;
-   text-align: center;
-   
+   text-align: center;   
 }
 
 
@@ -206,13 +198,10 @@ body, html {
    transition: background-color 0.3s;
    margin-top:1em;
    font-weight: bold;
-   
+   animation: pulse 2s infinite alternate;    
 }
 
-.quote-button {
- 
-   animation: pulse 2s infinite alternate; 
-}
+
 
 @keyframes pulse {
    from {
@@ -228,9 +217,6 @@ body, html {
    color: #fff; 
 }
 
-.quote-button:hover {
-   background-color: #328a4c;
-}
 
 /* FOOTER */
 footer {
