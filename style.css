@@ -123,6 +123,7 @@ body, html {
    margin-top: 14em;
    align-items: center;
    animation: fadeIn 1.5s; 
+   align-items: ce;
 }
 
 @keyframes fadeIn {
@@ -132,18 +133,6 @@ body, html {
    to {
       opacity: 1;
    }
-}
-
-.banner-content {
-   max-width: 600px;
-   text-align: center;
-   position: absolute;
-   top: 18em; 
-   left: 50%;
-   transform: translate(-50%, -50%);
-   margin-top: 14em;
-   align-items: ce;
-
 }
 
 .banner-content h1 {
