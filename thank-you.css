@@ -1,0 +1,80 @@
+.top-bar {
+   background-color: #328a4c;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1em 1.5em;
+   font-size: 1em;
+   /* position: fixed; */
+   width: 100%;
+   z-index: 1000;
+   opacity: 0;
+   margin-top: -10em;
+   animation: fadeInTopBar 1.5s 1.5s forwards;
+}
+body {
+   background-color: #8ed3a2;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.thank-you-content {
+   text-align: center;
+   color: #04250b;
+   margin-top: 10em;
+   margin-bottom: 29em;
+}
+
+h1 {
+   font-size: 4em;
+   margin-bottom: 20px;
+}
+
+p {
+   font-size: 2em;
+   margin-bottom: 30px;
+}
+
+.home-link {
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 2em;
+   text-align: center;
+   text-decoration: none;
+   background-color: #04250b;
+   color: #fff;
+   border: 2px solid #04250b;
+   border-radius: 5px;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+.home-link:hover {
+   background-color: #8ed3a2;
+   color: #04250b;
+}
+/* Media query for screens up to 768px */
+@media screen and (max-width: 768px) {
+   .thank-you-content {
+       margin-top: 5em; /* Adjust margin-top for smaller screens */
+       margin-bottom: 30em; /* Adjust margin-bottom for smaller screens */
+   }
+   .top-bar {
+display: none;
+   }
+
+   h1 {
+       font-size: 3em; /* Adjust font size for smaller screens */
+   }
+
+   p {
+       font-size: 1.5em; /* Adjust font size for smaller screens */
+       margin-bottom: 20px; /* Adjust margin for smaller screens */
+   }
+
+   .home-link {
+       padding: 8px 16px; /* Adjust padding for smaller screens */
+       font-size: 1.5em; /* Adjust font size for smaller screens */
+   }
+}
