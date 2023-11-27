@@ -1,67 +1,62 @@
 @media screen and (max-width: 768px) {
-   .contact-info {
-     flex-direction: column;
-     align-items: center;
-   }
-   h1 {
-      font-size: 3em;
-    }
-    .contact-form h2 {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-      white-space: nowrap;
-      margin-left: -.3em;
-    }
- 
-   .contact-method {
-     text-align: center;
-     max-width: none;
-   }
-   .contact-form {
-     margin-top: 4em;
-  }
- 
- 
-   button[type="submit"] {
-      color: #fff;
-      padding: 8px 16px; 
-      font-size: 1em; 
-      background: #04250b;
-      border: 3px solid #8ed3a2;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s;
-      width: 50%;
-      align-items: center;
-      margin-left: 4em;
-  } 
-    p {
-     font-size: 1.2em; 
-     margin-top: 0.5em; 
-     margin-bottom: 1em; 
-   }
- 
-   .project-info p {
-     font-size: 1em;
-   }
-   .contact-info {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }  
+.contact-info {
+flex-direction: column;
+align-items: center;
+}
+h1 {
+font-size: 3em;
+}
+.contact-form h2 {
+font-size: 1.5em;
+margin-bottom: 10px;
+white-space: nowrap;
+margin-left: -.3em;
+} 
+.contact-method {
+text-align: center;
+max-width: none;
+}
+.contact-form {
+margin-top: 4em;
+}  
+button[type="submit"] {
+color: #fff;
+padding: 8px 16px; 
+font-size: 1em; 
+background: #04250b;
+border: 3px solid #8ed3a2;
+border-radius: 5px;
+cursor: pointer;
+transition: background 0.3s;
+width: 50%;
+align-items: center;
+margin-left: 4em;
+} 
+p {
+font-size: 1.2em; 
+margin-top: 0.5em; 
+margin-bottom: 1em; 
+}
 
-    .form-group input,
-    .form-group textarea {
-    
-      font-size: 1em;
-    }  
-    .form-group label {
-      font-size: .8em;
-    }  
+.project-info p {
+font-size: 1em;
+}
+.contact-info {
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}  
 
-    .form-group textarea {
-      height:  50px!important;
-      resize: none;
-  }
+.form-group input,
+.form-group textarea {
 
-   }
+font-size: 1em;
+}  
+.form-group label {
+font-size: .8em;
+} 
+.form-group textarea {
+height:  50px!important;
+resize: none;
+}
+}
