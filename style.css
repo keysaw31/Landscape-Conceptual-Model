@@ -197,7 +197,7 @@ body, html {
        transform: scale(1);
    }
    to {
-       transform: scale(1.05);
+       transform: scale(.5);
    }
 }
 
