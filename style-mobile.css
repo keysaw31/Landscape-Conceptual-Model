@@ -62,5 +62,23 @@
   text-align: center;   
   height: 600px; 
 } 
+ footer .copyright {
+  font-size: .5em;
+  margin-top: 3em;
+ }
+ footer a {
+  font-size: .7em;
+ }
+ footer .title {
+  font-size: .7em;
+ }
+ footer .site {
+  margin-top: -1em;
+ }
+ .footer-content img {
+  width: 2em;
+  height: 2em;
+  margin-left: -2em;
+}
 }
  
