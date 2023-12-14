@@ -60,6 +60,17 @@
   text-align: center;   
   height: 600px; 
 } 
+.background-image-section {
+  background-image: url('Images/Landscaping.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;   
+  height: 500px;
+  background-attachment: fixed; /* Add this line */
+}
  footer .copyright {
   font-size: .5em;
   margin-top: 3em;
